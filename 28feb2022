@@ -1,0 +1,11 @@
+Encapsulation:-
+* Encapsulation in java is a mechanism of wrapping the data(variable) & code acting on data(methods) togeather as single unit.
+* In Encapsulation, the variales of a class will be hidden from other classes & can be accessed only through mode of current class. Therfore, it is also known as data hiding.
+*Example-
+
+public class runClass{
+EncapTest encap = new EncapTest();
+encap.setName("James");
+encap.SetAge("20");
+System.out.println("Name:" + encap.getName() + "Age:" + encap.getAge());
+}
